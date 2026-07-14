@@ -15,7 +15,10 @@ model.fit(customers, sales)
 
 
 # Streamlit UI
-st.title("Linear Regression")
+st.markdown(
+    "<h1 style='text-align: center;'>Linear Regression</h1>",
+    unsafe_allow_html=True
+)
 st.subheader("Predict Daily Cafe Sales.")
 st.markdown("""
 ### Interpretation of Results
