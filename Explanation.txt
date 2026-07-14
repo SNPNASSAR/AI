@@ -1,0 +1,128 @@
+1. Predicted Daily Sales
+
+Example output:
+
+Predicted Daily Sales: $594.52
+
+Meaning:
+
+The machine learning model estimates that if 60 customers visit the café in a day, the café will make approximately $594.52 in sales.
+
+This is only a prediction, not an exact value. Actual sales may be higher or lower depending on factors such as:
+
+What customers buy
+Discounts offered
+Weather
+Special events
+2. Slope (Coefficient)
+
+Example:
+
+Slope (Coefficient): 9.81
+
+The slope tells us how much sales increase for each additional customer.
+
+Here it means:
+
+Every additional customer increases daily sales by approximately $9.81.
+
+For example:
+
+Customers	Expected Increase in Sales
++1	+$9.81
++5	+$49.05
++10	+$98.10
+
+This is why the regression line slopes upward.
+
+3. Intercept
+
+Example:
+
+Intercept: 5.95
+
+The intercept is the predicted sales when the number of customers is 0.
+
+Mathematically,
+
+Sales = (Slope × Customers) + Intercept
+
+So,
+
+Sales = (9.81 × Customers) + 5.95
+
+When customers = 0,
+
+Sales = 5.95
+
+In this café example, the intercept does not have much practical meaning, because a café with zero customers would not realistically earn sales. It simply helps position the regression line mathematically.
+
+4. Regression Line
+
+The red line is called the best-fit line.
+
+It represents the relationship learned by the model.
+
+The equation is approximately:
+
+Sales=9.81×Customers+5.95
+
+Every point on the red line is a predicted sales value.
+
+5. Blue Dots
+
+The blue dots are the actual training data.
+
+For example,
+
+Customers	Actual Sales
+20	200
+25	250
+30	300
+35	340
+40	400
+45	450
+50	480
+55	550
+
+These are the observations used to train the model.
+
+6. Green Dot
+
+The green dot is the prediction made by the model.
+
+If you enter:
+
+60
+
+the green dot appears at
+
+(60, 594.52)
+
+It shows where the model believes the next data point should be.
+
+7. Why isn't the prediction exactly $600?
+
+You might think:
+
+60 customers × $10 = $600
+
+But the training data isn't perfectly linear.
+
+For example,
+
+35 customers → $340
+50 customers → $480
+
+don't follow a perfect "$10 per customer" pattern.
+
+Linear Regression finds the best overall line that minimizes prediction errors across all data points, rather than fitting every point exactly.
+
+Overall Interpretation
+
+The model learned that:
+
+There is a positive relationship between customers and sales.
+As the number of customers increases, daily sales also increase.
+On average, each additional customer contributes about $9.81 in sales.
+The model can estimate future sales for any reasonable number of customers.
