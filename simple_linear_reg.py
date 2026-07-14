@@ -19,7 +19,7 @@ st.markdown("""<p style="text-align:center;font-size:40px;font-weight:bold;color
 
 st.markdown("<h4> Problem statement: Build a model to predict sales for 60 customers.</h4>", unsafe_allow_html=True)
             
-st.markdown("<h4> Model: A simple linear regression model is used in this scenario to predict sales for 60 customers.</h4>")
+st.markdown("<h4> Model: A simple linear regression model is used in this scenario to predict sales for 60 customers.</h4>", unsafe_allow_html=True)
 
 
 
