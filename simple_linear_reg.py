@@ -21,10 +21,12 @@ st.markdown("<h6> Problem statement: Build a model to predict sales for 60 custo
             
 st.markdown("<h6> Model: A simple linear regression model is used in this scenario to predict sales for 60 customers.</h6>", unsafe_allow_html=True)
 
-st.markdown("<br><br>", unsafe_allow_html=True)
+st.markdown("<br>", unsafe_allow_html=True)
 
 # User input
 num_customers = st.number_input("Enter the number of customers:",min_value=1,max_value=500, value=60)
+
+st.markdown("<br>", unsafe_allow_html=True)
 
 predicted_sales = model.predict([[num_customers]])
 st.success(f"Predicted Daily Sales: **${predicted_sales[0]:.2f}**")
