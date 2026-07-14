@@ -16,7 +16,7 @@ model.fit(customers, sales)
 
 # Streamlit UI
 st.markdown(
-    "<h1 style='text-align: center;'>Linear Regression</h1>",
+    "<h4 style='text-align: center;'>Build a linear regression model to predict sales for 60 customers.</h4>",
     unsafe_allow_html=True
 )
 st.subheader("Predict Daily Cafe Sales.")
