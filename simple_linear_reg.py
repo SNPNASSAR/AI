@@ -16,10 +16,12 @@ model.fit(customers, sales)
 
 # Streamlit UI
 st.markdown(
+    "<h4 style='text-align: center;'>Prediction of daily cafe sales.</h4>", unsafe_allow_html=True)
+
+st.markdown(
     "<h4 style='text-align: center;'>Build a linear regression model to predict sales for 60 customers.</h4>",
     unsafe_allow_html=True
 )
-st.subheader("Predict Daily Cafe Sales.")
 st.markdown("""
 ### Interpretation of Results
 
