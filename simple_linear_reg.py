@@ -15,9 +15,9 @@ model.fit(customers, sales)
 
 
 # Streamlit UI
-st.markdown("""<p style="text-align:center;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Prediction of Daily Cafe Sales</p>""",unsafe_allow_html=True)
+st.markdown("""<p style="text-align:center;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Daily Cafe Sales</p>""",unsafe_allow_html=True)
 
-st.markdown("<h4 style='text-align: center;'>Problem statement: Build a linear regression model to predict sales for 60 customers.</h4>", unsafe_allow_html=True)
+st.markdown("<h4> Problem statement: Build a linear regression model to predict sales for 60 customers.</h4>", unsafe_allow_html=True)
             
 
 # User input
