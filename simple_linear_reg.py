@@ -17,26 +17,8 @@ model.fit(customers, sales)
 # Streamlit UI
 st.markdown("""<p style="text-align:center;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Prediction of Daily Cafe Sales</p>""",unsafe_allow_html=True)
 
-st.markdown(
-    "<h4 style='text-align: center;'>Build a linear regression model to predict sales for 60 customers.</h4>",
-    unsafe_allow_html=True
-)
-st.markdown("""
-### Interpretation of Results
-
-- **Slope (Coefficient):** Indicates how much the daily sales increase for every additional customer.
-- **Intercept:** Represents the predicted sales when there are zero customers. It is mainly a mathematical parameter used to define the regression line.
-- **Predicted Daily Sales:** The estimated sales for the number of customers entered by the user.
-- **Blue Dots:** Actual historical sales data.
-- **Red Line:** The best-fit regression line learned from the historical data.
-- **Green Dot:** The predicted sales for the entered number of customers.
-""")
-
-st.write("""
-This app predicts the **daily sales** based on the **number of customers**
-using a simple Linear Regression model.
-         
-""")
+st.markdown(""" Problem statement : """ "<h4 style='text-align: center;'>Build a linear regression model to predict sales for 60 customers.</h4>", unsafe_allow_html=True)
+            
 
 # User input
 num_customers = st.number_input(
@@ -76,3 +58,14 @@ data = {
 }
 
 st.table(data)
+
+st.markdown("""
+### Interpretation of Results
+
+- **Slope (Coefficient):** Indicates how much the daily sales increase for every additional customer.
+- **Intercept:** Represents the predicted sales when there are zero customers. It is mainly a mathematical parameter used to define the regression line.
+- **Predicted Daily Sales:** The estimated sales for the number of customers entered by the user.
+- **Blue Dots:** Actual historical sales data.
+- **Red Line:** The best-fit regression line learned from the historical data.
+- **Green Dot:** The predicted sales for the entered number of customers.
+""")
