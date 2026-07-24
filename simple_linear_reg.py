@@ -18,7 +18,7 @@ model.fit(customers, sales)
 
 st.markdown("""<p style="text-align:left;font-size:50px;font-weight:bold;color:#1f77bf;margin-bottom:22px;">Simple Linear Regression</p>""",unsafe_allow_html=True)
 
-st.markdown("""<p style="text-align:left;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Daily Cafe Sales</p>""",unsafe_allow_html=True)
+st.markdown("""<p style="text-align:center;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Daily Cafe Sales</p>""",unsafe_allow_html=True)
 
 st.markdown("<h6> Problem statement: Build a model to predict sales for 60 customers.</h6>", unsafe_allow_html=True)
             
