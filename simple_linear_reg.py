@@ -16,7 +16,7 @@ model.fit(customers, sales)
 
 # Streamlit UI
 
-st.markdown("""<p style="text-align:left;font-size:45px;font-weight:bold;color:#1f77bf;margin-bottom:22px;">Simple Linear Regression</p>""",unsafe_allow_html=True)
+st.markdown("""<p style="text-align:left;font-size:50px;font-weight:bold;color:#1f77bf;margin-bottom:22px;">Simple Linear Regression</p>""",unsafe_allow_html=True)
 
 st.markdown("""<p style="text-align:left;font-size:40px;font-weight:bold;color:#1f77b4;margin-bottom:20px;">Daily Cafe Sales</p>""",unsafe_allow_html=True)
 
