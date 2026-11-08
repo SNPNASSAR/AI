@@ -57,7 +57,7 @@ with tab1:
         "Enter the number of customers:",
         min_value=1,
         max_value=500,
-        value=60,
+        value=50,
         key="slr_customers"
     )
 
