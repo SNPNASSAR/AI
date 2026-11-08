@@ -17,7 +17,7 @@ tab1, tab2, tab3 = st.tabs(
 st.markdown("""
 <style>
 button[data-baseweb="tab"] {
-    font-size: 28px !important;
+    font-size: 100px !important;
     font-weight: bold;
     padding: 15px 30px;
     height: 70px;
